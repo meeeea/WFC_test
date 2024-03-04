@@ -18,4 +18,8 @@ class Neighbor {
         this._left = neighbors[6];
         this._upLeft = neighbors[7];
     }
+
+    public Neighbor(){
+        
+    }
 }
