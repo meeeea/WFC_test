@@ -1,0 +1,34 @@
+{
+    "tiles": [
+        {
+            "id" : 0,
+            "name" : "air"
+        },
+        {
+            "id" : 1,
+            "name" : "ladder_top",
+            "restrictions" : {
+                "up" : {
+                    "ids" : [0]
+                },
+                "down" : {
+                    "ids" : [2, 0],
+                    "groups" : ["ground"]
+                }
+            }
+        },
+        {
+            "id" : 2,
+            "name" : "ladder",
+            "restrictions" : {
+                "up" : {
+                    "ids" : [1, 2]
+                },
+                "down" : {
+                    "ids" : [2, 0],
+                    "groups" : ["ground"]
+                }
+            }
+        }
+    ]
+}
